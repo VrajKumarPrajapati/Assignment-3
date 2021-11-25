@@ -1,0 +1,13 @@
+
+    <ul>
+    <li *ngFor="let subject of myCourses; let i=index" (click)= "ClickMe(i)">
+        
+        {{subject.course_Code}}
+        <div *ngIf="Clicked[i]">
+            <strong>Course Name: </strong>{{subject.course_Title}} <br>
+            <strong>Day: </strong>{{subject.day_Of_Week}}<br>
+            <strong>Professor Name: </strong>{{subject.professor_Name}}<br>
+        </div>
+    </li>
+    </ul>
+

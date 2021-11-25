@@ -1,0 +1,16 @@
+li{background-color:lightcoral;
+   padding: 15px;
+   margin: 5px;
+   list-style-type: none;
+   text-decoration: rgb(144, 178, 240);
+   text-align: center;
+   font-style: oblique;
+   font-size: larger;
+   border: solid blueviolet;
+}
+
+li div {
+    background: lightsteelblue;
+    border: solid blueviolet;
+    display: inline-block;
+}
